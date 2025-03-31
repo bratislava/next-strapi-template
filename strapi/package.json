@@ -16,10 +16,10 @@
     "strapi": "strapi"
   },
   "dependencies": {
-    "@strapi/plugin-graphql": "4.25.19",
-    "@strapi/plugin-i18n": "4.25.19",
-    "@strapi/plugin-users-permissions": "4.25.19",
-    "@strapi/strapi": "4.25.19",
+    "@strapi/plugin-graphql": "4.25.22",
+    "@strapi/plugin-i18n": "4.25.22",
+    "@strapi/plugin-users-permissions": "4.25.22",
+    "@strapi/strapi": "4.25.22",
     "patch-package": "^8.0.0",
     "pg": "^8.11.3",
     "postinstall-postinstall": "^2.1.0",
@@ -37,12 +37,12 @@
     "eslint-scope": "^7.1.1"
   },
   "engines": {
-    "node": ">=18.x.x",
+    "node": ">=20.19.x",
     "npm": ">=9.8.1",
     "yarn": "1.22"
   },
   "volta": {
-    "node": "18.17.1"
+    "node": "20.19.0"
   },
   "strapi": {
     "uuid": "61130046-63b5-40a0-a617-713763ba3913"
