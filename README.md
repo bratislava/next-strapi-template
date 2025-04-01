@@ -16,7 +16,7 @@
   - `DATABASE_HOST=template-strapi-database`
   - `MINIO_BUCKET=template-strapi` (this is used in `strapi/config/env/production/plugins.js`)
 - update bratiska-cli env files `.env.bratiska-cli-build.*` - add actual values instead of TODO
-- remove this *How to use this template* section
+- remove this _How to use this template_ section
 
 What was added on top of the base next-strapi template:
 

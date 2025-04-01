@@ -1,11 +1,16 @@
-# 🚀 Strapi
+# Strapi
 
-## Setup
+## First-time setup
 
-Before you start, install all dependencies and create `.env.local` file which is .gitignored and used for local dev.
+Before you start, install dependencies with
 
 ```
 yarn
+```
+
+Create `.env.local` file based on `.env.example`. The `.env.local` file is used for local dev and should be .gitignored.
+
+```
 cp .env.example .env.local
 ```
 
