@@ -28,7 +28,7 @@
     "graphql-request": "^6.1.0",
     "graphql-tag": "^2.12.6",
     "i18next": "23.14.0",
-    "next": "14.2.6",
+    "next": "14.2.26",
     "next-i18next": "15.3.1",
     "react": "18.3.1",
     "react-aria": "3.34.3",
@@ -46,7 +46,7 @@
     "@graphql-codegen/typescript-graphql-request": "^6.2.0",
     "@graphql-codegen/typescript-operations": "^4.2.0",
     "@tanstack/eslint-plugin-query": "^5.28.11",
-    "@types/node": "^20",
+    "@types/node": "20.17.28",
     "@types/react": "18.3.4",
     "@types/react-dom": "18.3.0",
     "@typescript-eslint/eslint-plugin": "^6.20.0",
@@ -56,7 +56,7 @@
     "eslint-config-airbnb": "^19.0.4",
     "eslint-config-airbnb-typescript": "^17.1.0",
     "eslint-config-auto": "0.9.0",
-    "eslint-config-next": "14.2.6",
+    "eslint-config-next": "14.2.26",
     "eslint-config-prettier": "^9.1.0",
     "eslint-plugin-array-func": "^4.0.0",
     "eslint-plugin-const-case": "^1.2.2",
@@ -88,6 +88,7 @@
     "typescript": "5.5.4"
   },
   "volta": {
-    "node": "20.11.0"
+    "node": "20.19.0",
+    "yarn": "1.22.22"
   }
 }
