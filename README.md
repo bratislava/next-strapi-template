@@ -1,5 +1,7 @@
 # next-strapi-template
 
+This template repo is archived. Please use some recent project as a starter, e.g. olo.sk or bratislava.sk at this time.
+
 ## How to use this template
 
 **Initial setup:** Copy the template repo and change the following:
