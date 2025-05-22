@@ -1,18 +1,26 @@
 # Next
 
-This readme should get you up & running.
-
 ## First-time setup
 
-To install dependencies run:
+Before you start, install dependencies with
 
 ```
 yarn
 ```
 
-For CMS setup see `strapi` directory. You can also run the project against staging or production strapi (useful when developing and debugging) - provided that you're not working on Strapi model changes.
+Create `.env.local` file based on `.env.example`. The `.env.local` file is used for local dev and should be .gitignored.
+
+```
+cp .env.example .env.local
+```
+
+Next needs to be run against a Strapi (CMS) instance. For local setup, see the `strapi` directory.
+
+You can also run the project against staging or production Strapi (useful when developing and debugging) - provided that you're not working on Strapi model changes.
 
 ## Run project locally
+
+Start your Next application in development mode. [Learn more](https://nextjs.org/docs/app/api-reference/cli/next)
 
 ```
 yarn dev
@@ -30,10 +38,4 @@ To generate new types run:
 yarn gen
 ```
 
-For more information, refer to [the documentation](/docs/libs/Strapi-SDK.md).
-
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-## Static Site Generation
-
-If you want to test static site generation locally, you need to run `yarn build` and `yarn start`. This commands run by default with the prod env variable, so in order to have the local env variable for strapi, you need to create `.env.local` with `NEXT_PUBLIC_STRAPI_URL=localhost:1337` to override the prod values. This file is ignored by git, because it often contains sensitive secrets.
